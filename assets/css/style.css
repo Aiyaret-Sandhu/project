@@ -591,8 +591,8 @@ body {
 .footer a:not(.logo) { color: inherit; }
 
 .footer-top {
-  display: grid;
-  gap: 30px;
+  display: flex;
+  /* gap: 30px; */
   margin-bottom: 40px;
 }
 
@@ -606,6 +606,10 @@ body {
 .footer-link {
   font-size: var(--fs-7);
   padding-block: 5px;
+}
+
+.footer-list {
+  margin: 0 10rem;
 }
 
 .footer .footer-link:is(:hover, :focus) { color: var(--white-1); }
